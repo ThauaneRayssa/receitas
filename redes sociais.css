@@ -1,0 +1,59 @@
+
+.caixa{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #6495ED;
+    font-weight: bolder;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.h1{
+    margin: 80px 0 50px;
+    font-size: 25px;
+    color: #191970;
+    font-weight: bold;
+}
+.h2{
+    margin: 20px 0 20px;
+    font-size: 25px;
+    color: #191970;
+    font-weight: bold;
+}
+.tod{
+    margin: 55px 0;
+    
+}
+.tod::before{
+    content: "⮫";
+    color: #214eb1
+}
+.tod::after{
+   content: "⮪" ;
+   color: #214eb1
+}
+.tod a{
+    margin: 20px 0 20px;
+    color: #214eb1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+

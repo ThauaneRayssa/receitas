@@ -1,0 +1,64 @@
+.caixa{
+    background-color: white;
+    width: 100%;
+}
+.corpo{
+    background-image: url(fotos/CAPA.png);
+    position: absolute;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #6495ED;
+    font-weight: bolder;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.receita{
+    margin: 30px 0 40px;
+    font-size: 33px;
+    text-align: center;
+    color: #00008B;
+}
+.preparo{
+    margin: 20px 0;
+    font-size: 19px;
+    font-weight: bolder;
+    text-align: center;
+}
+.ing li{
+    margin: 10px 0 5px;
+}
+.ing{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 15px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #C0C0C0;
+
+}
+.copyright{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}

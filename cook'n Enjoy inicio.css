@@ -1,0 +1,69 @@
+.caixa{
+    background-color: white;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #6495ED;
+    font-weight: bolder;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+main{
+    margin: 50px 0;
+   
+}
+.int{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.topicos{
+    margin: 3% 0 0;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15% ;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.8;
+}
+
+.itens::before{
+    content: "↪";
+    color: #4169E1;
+}
+.imagem-topicos{
+    margin: 2% 1.5% 2% 35% ;
+    width: 17%;
+}
+#sc{
+    font-size: 20px;
+    font-weight: bolder;
+    clear: left;
+    text-shadow: 1px 1.1px #1E90FF;
+}
+footer{
+    text-align: center;
+    background-color: #C0C0C0;
+
+}
+.copyright{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}

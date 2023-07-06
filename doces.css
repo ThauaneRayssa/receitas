@@ -1,0 +1,150 @@
+.caixa{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 170px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #6495ED;
+    font-weight: bolder;
+    font-size: 28px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.bolo{
+    margin: 30px 0 40px;
+    font-size: 33px;
+    text-align: center;
+    color: #00008B;
+    
+}
+.ing{
+    font-size: 19px;
+    font-weight: bolder;
+    text-align: center;
+}
+.massa{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 10px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+}
+.massa li{
+    margin: 10px 0 5px;
+}
+.massa h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #00008B;
+}
+.recheio{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 10px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+}
+.recheio li{
+    margin: 10px 0 5px;
+}
+.recheio h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #00008B;
+}
+.calda{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 10px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+}
+.calda li{
+    margin: 10px 0 5px;
+}
+.calda h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #00008B;
+}
+.modpreparo{
+    font-size: 19px;
+    margin: 30px 0 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+.preparo{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 10px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+}
+.preparo li{
+    margin: 10px 0 5px;
+}
+.preparo h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #00008B;
+}
+.montagem{
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 0px;
+    padding: 10px;
+    width: 530px;
+    font-size: 20px;
+    margin: 15px 0 0 487px;
+    text-align: center;
+   
+}
+.montagem li{
+    margin: 0 0 15px;
+}
+.montagem h3{
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: bolder;    
+    color: #00008B;
+}
+footer{
+    text-align: center;
+    background-color: #C0C0C0;
+
+}
+.copyright{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}

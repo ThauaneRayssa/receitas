@@ -1,0 +1,83 @@
+.caixa{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #6495ED;
+    font-weight: bolder;
+    font-size: 28px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+main{
+   
+    background-image: url(fotos/fundooo.jpeg);
+    position: absolute;
+    width: 100%;
+    
+}
+.topico{
+    padding: 5px 0 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000000;
+}
+.receitas li{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    margin: 1% 3.5% ;
+    padding: 20px;
+    box-sizing: border-box; 
+    border: solid 1.6px #000000;
+    border-radius: 40px;
+}
+.receitas li:hover{
+    border-color: #4169E1;
+}
+.receitas li:active{
+    border-color: #87CEEB;
+}
+.receitas h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 4%;
+}
+.receitas h2 a{
+    text-transform:uppercase;
+    color: black;
+    text-decoration: none;
+}
+.receitas li:hover h2{
+    font-size: 22px;
+    color: #0000FF;
+    text-decoration: underline;
+
+}
+footer{
+    text-align: center;
+    background-color: #C0C0C0;
+
+}
+.copyright{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
